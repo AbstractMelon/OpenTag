@@ -13,7 +13,12 @@ const config = {
 			return isExternalLibrary ? undefined : true;
 		}
 	},
-	kit: { adapter: adapter() }
+	kit: {
+		// SPA fallback using index.html
+		adapter: adapter({
+			fallback: 'index.html'
+		})
+	}
 };
 
 export default config;
