@@ -1,17 +1,20 @@
 #include <Arduino.h>
 #include <WiFi.h>
-#include <HTTPClient.h>
 #include "Config.h"
 #include "Pins.h"
 
 void setup() {
+  // Allow time for the serial monitor to connect????
+  // https://forum.arduino.cc/t/esp32-serial-monitor-prints-garbage-after-reset-prints-correctly/1315325/17?u=abstractmelon
+  delay(1000); 
   Serial.begin(115200);
+  delay(1000); 
 
   pinMode(LED_PIN, OUTPUT);
   pinMode(BUTTON_PIN, INPUT_PULLUP);
 
   digitalWrite(LED_PIN, LOW);
-
+  
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
   Serial.print("Connecting to WiFi");
@@ -31,6 +34,4 @@ void loop() {
   } else {
     digitalWrite(LED_PIN, LOW);
   }
-
-  delay(10);
 }

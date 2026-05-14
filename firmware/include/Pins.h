@@ -1,10 +1,10 @@
 #pragma once
 
-// External LED
-#define BUILT_IN_LED_PIN 16
-
 // Debug LED on ESP32 dev board
-#define LED_PIN 2
+#define BUILT_IN_LED_PIN 2
+
+// External LED
+#define LED_PIN 18
 
 // Button input
 #define BUTTON_PIN 4

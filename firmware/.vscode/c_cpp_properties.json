@@ -10,8 +10,6 @@
             "includePath": [
                 "/mnt/Storage/Important/Projects/OpenTag/firmware/include",
                 "/mnt/Storage/Important/Projects/OpenTag/firmware/src",
-                "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
-                "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
@@ -220,6 +218,7 @@
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -237,6 +236,7 @@
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+                "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
@@ -246,8 +246,6 @@
                 "path": [
                     "/mnt/Storage/Important/Projects/OpenTag/firmware/include",
                     "/mnt/Storage/Important/Projects/OpenTag/firmware/src",
-                    "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
-                    "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
@@ -456,6 +454,7 @@
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                    "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -473,6 +472,7 @@
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+                    "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "/home/melon/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
